@@ -2,6 +2,99 @@
 font-family: 'Roboto Mono', monospace;
 font-family: 'Rubik', sans-serif; */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
 
 
-
+.container {
+}
+.header {
+}
+.logo {
+}
+.nav-menu {
+}
+.nav-menu-list {
+}
+.list-item {
+}
+.nav-input {
+}
+.icon-search {
+}
+.field-search {
+}
+.main-header-bg {
+}
+.main-header {
+}
+.main-header-context {
+}
+.main-header-title {
+}
+.main-header-text {
+}
+.main-header-button {
+}
+.hou-it-works-info {
+}
+.hou-it-works-list {
+}
+.hou-it-works-list-item {
+}
+.main-body-bg {
+}
+.body-bg-items {
+}
+.item-1 {
+}
+.main-body-slider {
+}
+.slider-title-links {
+}
+.slider-list {
+}
+.slider-item {
+}
+.slider-item-info {
+}
+.slider-item-text {
+}
+.slider-item-title {
+}
+.slider-item-subtitle {
+}
+.main-body-eyp {
+}
+.pay-eyp {
+}
+.pay-eyp-item {
+}
+.line-and-arrow {
+}
+.main-footer {
+}
+.main-footer-title {
+}
+.main-footer-block-comments {
+}
+.comment-column {
+}
+.comment-data {
+}
+.comment-text {
+}
+.name-commentator {
+}
+.main-footer-scroll-list-animals {
+}
+.main-footer-scroll-item {
+}
+.footer {
+}
+.design {
+}
