@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik:wght@300;400;500&display=swap"
         rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
     <title>Online zoo</title>
 </head>
 
@@ -15,13 +16,13 @@
     <header>
         <div class="container">
             <section class="header">
-                <article class="logo">
+                <article class="logo logo-header">
                     <img src="/image/Logo-large.svg" alt="logo" />
                 </article>
+                <section class="header-menu">
 
-                <nav class="nav-menu">
                     <ul class="nav-menu-list">
-                        <li class="list-item">
+                        <li class="list-item list-item-active">
                             <a href="">ABOUT</a>
                         </li>
                         <li class="list-item">
@@ -37,29 +38,30 @@
                             <a href="">DESIGN</a>
                         </li>
                     </ul>
-                </nav>
 
-                <nav class="nav-input">
-                    <ul class="nav-menu-list">
-                        <li class="list-item">
-                            <img class="icon-search" src="/image/search.svg" alt="" />
+
+                
+                    <ul class="nav-menu-list-imput">
+                        <li class="list-item item-input-heder">
                             <input class="field-search" type="text">
+                            <a href=""><img class="icon-search" src="/image/search.svg" alt="" /></a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item item-input-heder">
                             <a href="">LOG IN</a>
                         </li>
-                        <li class="list-item">
-                            <a href="">LOG UP</a>
+                        <li class="list-item item-input-heder ">
+                            <a class="button-sign" href="">SIGN UP</a>
                         </li>
                     </ul>
-                </nav>
+                
+            </section>
             </section> <!-- header -->
         </div>
     </header>
 
     <main>
-        <section class="main-header-bg">
-            <img src="/image/h-bgr.svg" alt="">
+        <section class="main-header">
+            <img class="main-header-bg" src="/image/h-bgr.svg" alt="">
             <div class="container">
                 <section class="main-header">
                     <article class="main-header-context">
@@ -365,25 +367,23 @@
                     <img src="/image/Logo-large.svg" alt="logo" />
                 </article>
 
-                <nav class="nav-menu">
-                    <ul class="nav-menu-list">
-                        <li class="list-item">
-                            <a href="">ABOUT</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">MAP</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">ZOOS</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">CONTACT US</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">DESIGN</a>
-                        </li>
-                    </ul>
-                </nav>
+                <ul class="nav-menu-list">
+                    <li class="list-item list-item-active">
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">MAP</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">ZOOS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">CONTACT US</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">DESIGN</a>
+                    </li>
+                </ul>
 
                 <div class="design">
                     <span>Design by Lemeshko Kateryna</span>
