@@ -20,12 +20,13 @@ body {
     margin: 0 90px 0 220px;
   }
 }
-
-
-ul, li, a {
-  list-style: none;
-
+a {
   text-decoration: none;
+  color: #C5E1E5;
+}
+
+ul, li{
+  list-style: none;
 }
 
 header {
