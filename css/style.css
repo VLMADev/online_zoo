@@ -14,6 +14,13 @@ body {
   max-width: 1480px;
   margin: 0 auto;
 }
+@media (max-width: 1920px) {
+  .container {
+    max-width: 100%;
+    margin: 0 90px 0 220px;
+  }
+}
+
 
 ul, li, a {
   list-style: none;
@@ -27,6 +34,7 @@ header {
 
 .header {
   display: flex;
+  justify-content: space-between;
 
   padding: 13px 0;
 }
@@ -35,11 +43,14 @@ header {
 }
 
 .logo-header {
+  margin-right: 50px;
 }
 
 .header-menu {
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
 }
 
 .nav-menu-list {
@@ -48,15 +59,17 @@ header {
   justify-content: space-between;
 
   width: 100%;
-  max-width: 510px;
+  max-width: 515px;
   padding: 0;
 }
 
 .list-item {
+  
 }
 
 .list-item-active::after {
   display: block;
+
   width: 100%;
 
   content: "";
@@ -66,15 +79,21 @@ header {
 
 .nav-menu-list-imput {
   display: flex;
-  
   align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
+  
 }
 
+
 .item-input-heder {
-  display: flex;
+    /* display: flex;
+  
   justify-content: space-between;
-  max-width: 400px;
+  text-align: center;
   width: 100%;
+   */
 }
 
 .field-search {
@@ -86,6 +105,9 @@ header {
 
 .button-sign {
   border: 1px solid #C5E1E5;
+  padding: 14px 10px;
+  box-sizing: content-box;
+  border-radius: 100px;
 }
 /* TODO: увеличивать при ширене 1920 и больше */
 .main-header {
@@ -100,7 +122,6 @@ header {
 }
 
 .main-header-bg {
-  
 }
 
 .main-header-context {
@@ -203,8 +224,3 @@ header {
 .design {
 }
 
-@media (min-width: 1920) {
-  .container {
-    margin: 0 133px 0 233px;
-  }
-}
