@@ -324,14 +324,25 @@ figure {
 }
 
 .slider-title-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .slider-list {
+  display: flex;
 }
 
 .slider-item {
+  background: url(/image/animals/simbi-yvan-NJuAzM8OhNE-unsplash.svg) no-repeat;
+  
 }
-
+.f1 {
+  
+  
+  
+}
 .slider-item-info {
 }
 
