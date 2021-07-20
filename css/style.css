@@ -217,11 +217,7 @@ header {
 .main-works-info-global-page {
   margin-bottom: 83px;
 }
-
-.main-works-title {
-  position: relative;
-  top: -78px;
-
+.title-h2 {
   text-transform: uppercase;
 
   color: #0D444D;
@@ -229,6 +225,10 @@ header {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 400;
+}
+.main-works-title {
+  position: relative;
+  top: -78px;
 }
 .main-works-list {
   display: flex;
@@ -320,7 +320,7 @@ figure {
 }
 
 .main-body-slider {
-  position: relative;
+  
 }
 
 .slider-title-links {
