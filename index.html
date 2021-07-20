@@ -73,16 +73,22 @@
               </p>
               <a class="main-header-button" href="#">Watch now</a>
             </article>
-            <!-- TODO: вставить видео -->
+            <a class="main-header-video" href="#">
+              <img class="main-header-play-video" src="/image/play.svg" alt="">
+              <img class="main-header-bgr-video" src="/image/Panda.png" alt="">
+            </a>
+   
           </section>
           <!-- main-header -->
 
-          <section class="main-works-info">
+          <section class="main-works-info main-works-info-global-page">
             <h2 class="main-works-title">How it works</h2>
             <ul class="main-works-list">
               <li class="main-works-list-item">
                 <figure>
-                  <img class="main-works-list-item-img" src="/image/icons-binoculars.svg" alt="Keep an eye" />
+                  <div class="main-works-list-img">
+                    <img src="/image/icons-binoculars.svg" alt="Keep an eye" />
+                  </div>
                   <figcaption class="main-works-list-item-subtitle">
                     Keep an eye on your favourite animals online
                   </figcaption>
@@ -90,7 +96,9 @@
               </li>
               <li class="main-works-list-item">
                 <figure>
+                  <div class="main-works-list-img">
                   <img src="/image/heart.svg" alt="communtity" />
+                  </div>
                   <figcaption class="main-works-list-item-subtitle">
                       Become a part of the communtity
                     </figcaption>
@@ -98,7 +106,9 @@
               </li>
               <li class="main-works-list-item">
                 <figure>
+                  <div class="main-works-list-img">
                   <img src="/image/give-heart.svg" alt="Support animals" />
+                </div>
                   <figcaption class="main-works-list-item-subtitle">
                       Support animals with the donations
                     </figcaption>
@@ -111,7 +121,7 @@
         <!-- container -->
       </section>
       <!-- main-header-bgr -->
-      <div class="main-body-bg">
+      <div class="main-body-bg main-body-bg-global-page">
         <img
           class="bgr"
           src="/image/main-background.svg"
@@ -119,16 +129,15 @@
         />
         <section class="body-bg-items">
           <article class="item-1">
-            <img src="/image/Bamboo.svg" alt="bamboo" />
-            <img src="/image/tree.svg" alt="tree" />
+            <img class="tree-first" src="/image/tree.svg" alt="tree" />
           </article>
-          <article class="item-1">
-            <img src="/image/tree.svg" alt="tree" />
-            <img src="/image/Panda.svg" alt="panda" />
-            <img src="/image/Bamboo.svg" alt="bamboo" />
+          <article class="item-2">
+            <img class="tree-small" src="/image/tree.svg" alt="tree" />
+            <img class="panda" src="/image/Panda.svg" alt="panda" />
+            <img  class="bamboo-panda" src="/image/Bamboo.svg" alt="bamboo" />
           </article>
-          <article class="item-1">
-            <img src="/image/tree.svg" alt="tree" />
+          <article class="item-3">
+            <img class="tree-third" src="/image/tree.svg" alt="tree" />
           </article>
         </section>
       </div>
