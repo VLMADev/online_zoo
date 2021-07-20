@@ -136,12 +136,8 @@ header {
   display: flex;
 
   height: 100%;
-  min-height: 773px;
 }
 
-.bgr {
-  max-width: 100%;
-}
 
 .main-header-block {
   display: flex;
@@ -192,25 +188,42 @@ header {
   letter-spacing: -1px;
   text-transform: uppercase;
 
+  color: #0D444D;
   border-radius: 100px;
   background-color: rgba(255, 255, 255, 1);
-
 /* TODO: сделать тень */
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, .6);
 
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
 }
+.main-header-bgr-video {
+  position: relative;
+  top: -70px;
+  left: -50px;
+}
+.main-header-play-video {
+  position: relative;
+  z-index: 2;
+  top: 362px;
+  right: -320px;
+}
 
 .main-works-info {
   position: relative;
 }
+.main-works-info-global-page {
+  margin-bottom: 98px;
+}
 
 .main-works-title {
   position: relative;
-  top: -53px;
+  top: -78px;
 
   text-transform: uppercase;
+
+  color: #0D444D;
 
   font-family: "Rubik", sans-serif;
   font-size: 24px;
@@ -220,30 +233,93 @@ header {
   display: flex;
   justify-content: space-between;
 
-  padding: 10px 0 0 60px;
-}
-
-.main-works-list-item {
-  align-self: flex-end;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 100px;
+  padding: 0;
 
   text-align: center;
 }
-.main-works-list-item-img {
+
+.main-works-list-item {
+  display: inline-block;
+  justify-content: center;
+}
+figure {
+  margin: 0;
+}
+.main-works-list-img {
+  display: inline-block;
+
+  padding: 44px;
+
+  border-radius: 50%;
+  background-color: #F3F7F8;
 }
 .main-works-list-item-subtitle {
+  margin-top: 15px;
+
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 .main-body-bg {
+  max-height: 493px;
+  height: 100%;
 }
-
+.main-body-bg-global-page {
+  margin-bottom: 100px;
+}
+.bgr {
+  position: absolute;
+  max-width: 100%;
+}
 .body-bg-items {
-}
+  position: relative;
 
+}
 .item-1 {
+  position: relative;
+ 
+  
+}
+.tree-first {
+  position: absolute;
+  margin-left: 241px;
+}
+.item-2 {
+  position: relative;
+  
+}
+.tree-small {
+  position: absolute;
+  margin-left: 816px;
+  max-height: 158px;
+  margin-top: 106px;
+}
+.panda {
+  position: absolute;
+  margin-left: 971px;
+  margin-top: 204px;
+  
+}
+.bamboo-panda {
+  position: absolute;
+  margin-top: 91px;
+  margin-left: 1060px;
+  min-height: 280px;
+}
+.item-3 {
+  position: relative;
+  
+}
+.tree-third {
+  margin-left: 1636px;
+  margin-top: 162px;
+  margin-bottom: 101px;
 }
 
 .main-body-slider {
+  position: relative;
 }
 
 .slider-title-links {
