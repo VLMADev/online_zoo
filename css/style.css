@@ -3,6 +3,7 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Rubik', sans-serif; */
 
 body {
+  max-width: 1920px;
   margin: 0;
   padding: 0;
 
@@ -18,12 +19,7 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1921px) {
-  .container {
-    max-width: 100%;
-    margin: 0 90px 0 220px;
-  }
-}
+
 
 a {
   text-decoration: none;
@@ -232,6 +228,7 @@ header {
 }
 .main-works-list {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   width: 100%;
@@ -259,7 +256,8 @@ figure {
 }
 .main-works-list-item-subtitle {
   margin-top: 15px;
-
+}
+.subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
@@ -267,7 +265,7 @@ figure {
   min-width: 463px;
 }
 .main-body-bg-global-page {
-  margin-bottom: 100px;
+  margin-bottom: 55px;
 
   background: url(/image/main-background.svg) no-repeat ;
   background-size: 100% ;
@@ -276,37 +274,38 @@ figure {
 .body-bg-items {
   display: flex;
   justify-content: space-between;
-  min-height: 530px;
+
   width: 100%;
+  min-height: 530px;
 }
 .item-1 {
   position: relative;
 }
 .tree-first {
-  margin-top: 40px;
-  margin-left: 225px;
+  margin-top: 42px;
+  margin-left: 220px;
 }
 .item-2 {
-  min-width: 370px;
+  min-width: 381px;
 }
 .tree-small {
   position: absolute;
 
   max-height: 158px;
-  margin-top: 100px;
+  margin-top: 101px;
 }
 .panda {
   position: absolute;
 
   margin-top: 200px;
-  margin-left: 150px;
+  margin-left: 155px;
 }
 .bamboo-panda {
   position: absolute;
 
   min-height: 280px;
   margin-top: 90px;
-  margin-left: 240px;
+  margin-left: 245px;
 }
 .item-3 {
   position: relative;
@@ -320,41 +319,96 @@ figure {
 }
 
 .main-body-slider {
-  
+  min-height: 867px;
 }
 
 .slider-title-links {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
   align-items: center;
-}
+  justify-content: space-between;
 
+  width: 100%;
+  /* margin-bottom: ; */
+}
+.slider-links {
+  display: flex;
+  justify-content: space-between;
+  border: 1.5px solid #19707D;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  padding: 13px 20px 13px 20px;
+  border-radius: 100px;
+  color: #19707D;
+}
+.slider-links-icon-heart {
+  margin-right: 16px;
+}
+.slider-title-links-global-page {
+  margin-bottom: 40px;
+}
 .slider-list {
   display: flex;
+  flex-wrap: wrap;
+
+  height: 100%;
+  min-height: 748px;
+  margin-bottom: 100px;
 }
 
+
 .slider-item {
-  background: url(/image/animals/simbi-yvan-NJuAzM8OhNE-unsplash.svg) no-repeat;
-  
+  flex: 1 1 auto;
+  max-width: 480px;
+  margin: 20px 20px 0px 0px;
+
+  border-radius: 10px;
+  background-color: #F3F7F8;
 }
-.f1 {
-  
-  
-  
+.slider-item:nth-last-child(3n+1) {
+  margin-right: 0;
 }
+.slider-item-img {
+  margin: 20px 119px 32px 125px;
+}
+
 .slider-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 100%;
+
+  border-top: 1px solid #E5EAEB;
 }
 
 .slider-item-text {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  margin-left: 30px;
+  margin-bottom: 6px;
 }
 
 .slider-item-title {
+  display: block;
+
+  width: 100%;
+
+  color: #2D2D2D;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .slider-item-subtitle {
+  color: #909090;
 }
-
+.slider-item-icon-video {
+  margin: 29px;
+}
 .main-body-eyp {
 }
 
